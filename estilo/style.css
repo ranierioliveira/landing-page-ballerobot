@@ -28,9 +28,12 @@ body{
 .imagem-logo{
     height: 62px;
 }
-.cabecalho-menu{
+#menu{
     display: flex;
-    gap: 32px;
+    gap: 40px;
+}
+span.material-symbols-outlined{
+    display: none;
 }
 .cabecalho-menu-item{
     font-family: 'Sarala', sans-serif;

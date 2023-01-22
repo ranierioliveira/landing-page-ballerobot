@@ -1,7 +1,37 @@
 @charset "UTF-8";
 
+
+
+
 @media screen and (max-width: 768px){
-    nav.cabecalho-menu{
-        display: none;
+    header.cabecalho{
+        display: flex;
+        flex-direction: column;
+        gap: 24px;
+        padding-bottom: 0px;
+    }
+    nav#menu{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .imagem-logo{
+        height: 80px;
+    }
+    span.material-symbols-outlined{
+        display: block;
+        color: white;
+        background-color: #2F2325;
+        width: 100vw;
+        height: 40px;
+        text-align: center;
+        padding-top: 8px;
+    }
+    span.material-symbols-outlined:hover{
+        cursor: pointer;
+    }
+    .conteudo{
+        border-top: none;
     }
 }
