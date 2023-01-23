@@ -7,17 +7,11 @@
     header.cabecalho{
         display: flex;
         flex-direction: column;
-        gap: 24px;
+        gap: 0px;
         padding-bottom: 0px;
     }
-    nav#menu{
-        display: flex;
-        flex-direction: column;
-        
-    }
-    
     .imagem-logo{
-        height: 80px;
+        margin-bottom: 32px;
     }
     span.material-symbols-outlined{
         display: block;
@@ -27,11 +21,58 @@
         height: 40px;
         text-align: center;
         padding-top: 8px;
-    }
+    }  
     span.material-symbols-outlined:hover{
         cursor: pointer;
+        color: #2F2325;
+        background-color: white;
     }
+    nav#menu{
+        display: none;
+        flex-direction: column;
+        gap: 0px;
+        
+        width: 100vw;
+        text-align: center;
+    }
+    nav > a{
+        padding: 0px;
+        border-bottom: 0.3px solid white;
+    }
+    nav >a:hover{
+        background-color: #c98374 ;
+    }
+    
+    .imagem-logo{
+        height: 80px;
+    }
+    
     .conteudo{
         border-top: none;
+    }
+    .conteudo-principal{
+        flex-direction: column;
+    }
+    .conteudo-principal-escrito{
+        gap: 8px;
+        text-align: center;
+    }
+    .conteudo-principal-escrito-titulo{
+        font-size: 56px;
+    }
+    .conteudo-principal-escrito-subtitulo{
+        font-size: 24px;
+    }
+    .conteudo-principal-escrito-botao{
+        margin: auto;
+        font-size: 16px;
+        width: 130px;
+    }
+    .conteudo-principal-imagem{
+        height: 200px;
+    }
+    .conteudo-secundario{
+        gap: 8px;
+        text-align: center;
     }
 }
